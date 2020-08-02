@@ -70,7 +70,7 @@ rm -rf $TMP
 cd $HOME
 wget https://github.com/xybp888/iOS-SDKs/archive/master.zip
 unzip master.zip
-sudo mkdir $THEOS/sdks
+# sudo mkdir $THEOS/sdks
 sudo mv $HOME/iOS-SDKs-master/*.sdk $THEOS/sdks
 rm -rf $HOME/iOS-SDKs-master
 rm -rf $HOME/master.zip
