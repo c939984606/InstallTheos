@@ -75,7 +75,7 @@ unzip master.zip
 sudo mv $HOME/iOS-SDKs-master/*.sdk $THEOS/sdks
 rm -rf $HOME/iOS-SDKs-master
 rm -rf $HOME/master.zip
-curl https://kabiroberai.com/toolchain/download.php?toolchain=swift-ubuntu-latest -Lo swift-toolchain.tar.gz
+curl https://files.abcdl.cn/GitHub/swift-toolchain.tar.gz
 sudo tar xzf swift-toolchain.tar.gz -C $THEOS/toolchain
 rm swift-toolchain.tar.gz
 echo "All done!"
