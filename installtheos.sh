@@ -61,7 +61,7 @@ apt-get install -y clang-$LLVM_VERSION lldb-$LLVM_VERSION lld-$LLVM_VERSION clan
 sudo apt-get install fakeroot git perl clang-6.0 build-essential
 sudo git clone --recursive https://github.com/theos/theos.git $THEOS
 sudo rm -rf $THEOS/toolchain*
-curl -LO https://github.com/sbingner/llvm-project/releases/download/v10.0.0-1/linux-ios-arm64e-clang-toolchain.tar.lzma
+curl -LO https://files.abcdl.cn/GitHub/linux-ios-arm64e-clang-toolchain.tar.lzma
 TMP=$(mktemp -d)
 echo $TMP
 tar --lzma -xf linux-ios-arm64e-clang-toolchain.tar.lzma -C $TMP
